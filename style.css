@@ -1,0 +1,45 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #111;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+}
+nav button {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+section {
+  padding: 2rem;
+}
+h1, h2 {
+  color: #FFD700;
+}
+form input, form button {
+  display: block;
+  margin: 1rem 0;
+  padding: 0.6rem;
+  width: 100%;
+  max-width: 400px;
+}
+form button {
+  background-color: #FFD700;
+  color: #000;
+  border: none;
+  font-weight: bold;
+}
